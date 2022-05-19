@@ -1,0 +1,29 @@
+[{
+  "value": "toan",
+  "label": "Toán rời rạc",
+  "color": "red"
+},{
+  "value": "xmljson",
+  "label": "Công nghệ XML và JSON",
+  "color": "green"
+},{
+  "value": "quanly",
+  "label": "Quản lý dự án và phần mềm",
+  "color": "blue"
+},{
+  "value": ".net",
+  "label": "Công nghệ .Net",
+  "color": "#0091FF"
+},{
+  "value": "dientu",
+  "label": "Kỹ thuật điện tử số",
+  "color": "#E15454"
+},{
+  "value": "tinhieu",
+  "label": "Xử lý tín hiệu số",
+  "color": "#F6A00A"
+},{
+  "value": "sql",
+  "label": "Ngôn ngữ SQL",
+  "color": "#251A57"
+}]
