@@ -20,7 +20,6 @@ import notificationNone from 'assets/img/notification_none.svg'
 import { SUBJECT_MAP } from 'constants/Subject'
 import moment from 'moment'
 import { useHistory } from 'react-router'
-import { envValues } from 'utils/env'
 import useStyles from './Topbar.style'
 
 const Topbar = ({ handleDrawer }) => {

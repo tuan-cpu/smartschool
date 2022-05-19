@@ -63,9 +63,9 @@ const Profile = () => {
     if ((user.type === 'student' && !(lesson.tracked || []).includes(user.uid))
     || (user.type === 'teacher' && !lesson.teacherTracked)) {
       if (moment().format('YYYY-MM-DD') === date) {
-        const checkedInTime = moment(event.startTime, 'HH:mm');
+        const checkedInTime = moment(event.startTime, 'HH:mm').add(5, 'minutes')
         const duration = moment.duration(checkedInTime.diff(moment()))
-        if (duration.asMinutes() >= 0 && duration.asMinutes() < 5) {
+        if (duration.asMinutes() >= 0 && duration.asMinutes() < 10) {
           if (user.type === 'student') {
             lActions.checkIn(lesson._id, user.uid)
           }
